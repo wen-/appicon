@@ -1,0 +1,44 @@
+.FileAddComponent {
+  height: 10em;
+  margin: 1em;
+  border: dashed 1px #ccc;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.selectPicLabel {
+  display: inline-block;
+  padding: 1em 3em;
+  color: #ccc;
+}
+.selectPic {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: transparent;
+  opacity: 0;
+}
+.imgItem {
+  display: inline-block;
+  position: relative;
+}
+.imgItem img{
+  max-height: 8em;
+}
+.imgItem span{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(255,255,255,.6);
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  line-height: 3em;
+  color: red;
+  font-size: .8em;
+}
